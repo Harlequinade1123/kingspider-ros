@@ -1,7 +1,7 @@
 // OpenRB-150 firmware for kingspider.
 //
-// Reconstructed from kingspider.bin (the original source was lost). Built with the
-// environment described in README.md, this sketch reproduces kingspider.bin
+// Reconstructed from openRB.bin (the original source was lost). Built with the
+// environment described in README.md, this sketch reproduces openRB.bin
 // byte for byte (apart from the zero padding that bossac adds to the last flash page).
 //
 // Note: the generated code depends on the details of this source (the order of

@@ -8,7 +8,7 @@ logs/
 # binaries / archives (the bundled firmware image is the exception)
 *.bin
 *.zip
-!firmware/openrb/kingspider.bin
+!firmware/openrb/openRB.bin
 
 # Python
 __pycache__/

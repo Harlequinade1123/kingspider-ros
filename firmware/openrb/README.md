@@ -8,9 +8,10 @@ Firmware for the OpenRB-150 used with `kingspider-ros`.
 | `openRB.ino` | Source reconstructed by decompiling `kingspider.bin` (the original source was lost) |
 
 `openRB.ino` is **not** bit-identical to `kingspider.bin`: building it gives a different binary
-(33,052 bytes vs. 32,704 bytes of code). Use `kingspider.bin` for the known-good behaviour.
+(33,100 bytes vs. 32,704 bytes of code; about 90% of the bytes match). Use `kingspider.bin` for the known-good behaviour.
 
-To build `openRB.ino`: Arduino IDE 1.8.19, board `OpenRB-150` (samd 0.2.1), library `Dynamixel2Arduino` 0.7.0.
+To build `openRB.ino`: Arduino IDE 1.8.19, board `OpenRB-150` (samd 0.2.1), library `Dynamixel2Arduino` 0.6.1 to 0.6.3
+(closest to `kingspider.bin`; 0.7.0 matches less).
 
 SHA-256 of `kingspider.bin`: `97c9ec84dd0ef452faa6fb2da82e92139d8e43ce2affe0fdb3429cfcdc916dde`
 

@@ -19,6 +19,10 @@ roslaunch kingspider one_robot_one_joy.launch
 
 Other launch files: `one_robot`, `two_robots`, `two_robots_one_joy`, `two_robots_two_joy`.
 
+## Firmware
+
+OpenRB-150 firmware is in [`firmware/openrb`](firmware/openrb).
+
 ## Related
 
 - [kingspider](https://github.com/Harlequinade1123/kingspider): Processing controller and Arduino firmware

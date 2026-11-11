@@ -5,9 +5,10 @@ install/
 logs/
 .catkin_tools/
 
-# firmware binaries / archives
+# binaries / archives (the bundled firmware image is the exception)
 *.bin
 *.zip
+!firmware/openrb/kingspider.bin
 
 # Python
 __pycache__/

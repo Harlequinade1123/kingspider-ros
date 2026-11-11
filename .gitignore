@@ -1,0 +1,22 @@
+# catkin build outputs
+build/
+devel/
+install/
+logs/
+.catkin_tools/
+
+# firmware binaries / archives
+*.bin
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+
+# Editors (contain machine-specific absolute paths)
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

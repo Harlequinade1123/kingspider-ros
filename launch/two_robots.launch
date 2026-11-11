@@ -1,0 +1,15 @@
+<launch>
+  <!-- Kingspider -->
+  <node pkg="kingspider" type="kingspider_joy_node" name="kingspider_node_1" output="screen">
+    <param name="joy_topic" value="/joy1"/>
+    <param name="device_name" value="/dev/ttyUSB0"/>
+    <param name="baudrate" value="57600"/>
+  </node>
+
+  <node pkg="kingspider" type="kingspider_joy_node" name="kingspider_node_2" output="screen">
+    <param name="joy_topic" value="/joy2"/>
+    <param name="device_name" value="/dev/ttyUSB1"/>
+    <param name="baudrate" value="57600"/>
+  </node>
+
+</launch>
